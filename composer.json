@@ -1,0 +1,24 @@
+{
+    "name": "haydenzhou/laravel-china-cities",
+    "description": "create cities database with datas imported from Ministry of Civil Affairs of the People's Republic of China",
+    "type": "library",
+    "authors": [
+        {
+            "name": "haydenZhou",
+            "email": "mfkhao2009@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LaravelChinaCities\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelChinaCities\\LaravelChinaCitiesServiceProvider"
+            ]
+        }
+    }
+}
