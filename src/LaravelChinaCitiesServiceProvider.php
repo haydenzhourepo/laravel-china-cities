@@ -2,7 +2,7 @@
 namespace HaydenZhou\LaravelChinaCities;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelChinaCities\Commands\ImportCity;
+use HaydenZhou\LaravelChinaCities\Commands\ImportCity;
 class LaravelChinaCitiesServiceProvider extends ServiceProvider
 {
     public function boot()

@@ -1,7 +1,7 @@
 <?php
 namespace HaydenZhou\LaravelChinaCities;
 
-class CityTrait {
+trait CityTrait {
     public function parent()
     {
         if ($this->parent_code) {

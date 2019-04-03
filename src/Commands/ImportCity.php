@@ -3,7 +3,7 @@
 namespace HaydenZhou\LaravelChinaCities\Commands;
 
 use Illuminate\Console\Command;
-use LaravelChinaCities\City;
+use HaydenZhou\LaravelChinaCities\City;
 
 class ImportCity extends Command
 {
