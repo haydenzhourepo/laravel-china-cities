@@ -15,10 +15,12 @@ class CreateCitiesTable extends Migration
     {
         Schema::create('cities', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('parent_code');
-            $table->string('code');
-            $table->string('name');
-            $table->timestamps();
+            $table->string('parent_code')->nullable()->comment('父级城市编码');
+            $table->string('code')->unique()->comment('城市区划编码');
+            $table->string('name', 20)->comment('城市区划名称');
+
+            $table->index('code');
+            $table->comment = '城市区划表';
         });
     }
 

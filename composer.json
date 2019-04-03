@@ -10,14 +10,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "LaravelChinaCities\\": "src/"
+            "HaydenZhou\\LaravelChinaCities\\": "src/"
         }
     },
     "require": {},
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelChinaCities\\LaravelChinaCitiesServiceProvider"
+                "HaydenZhou\\LaravelChinaCities\\LaravelChinaCitiesServiceProvider"
             ]
         }
     }
