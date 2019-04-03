@@ -6,15 +6,16 @@
 
 ### 使用
 
-发布migration文件
+发布migration文件 并填充数据
 
 ```
 artisan vendor:publish --provider="HaydenZhou\LaravelChinaCities\LaravelChinaCitiesServiceProvider"
 ```
 ```
 php artisan migrate
-```
 
+php artisan city:seed
+```
 
 创建City model
 
