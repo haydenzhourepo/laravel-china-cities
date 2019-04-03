@@ -19,7 +19,7 @@ php artisan migrate
 创建City model
 
 ```
-php artisan make:model City -mc
+php artisan make:model City -c
 ```
 
 City model 中 使用 CityTrait
